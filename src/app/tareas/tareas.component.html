@@ -1,0 +1,24 @@
+<div class="container container_properties">
+
+    <div class="row">
+        <div class="col-12">
+            <p class="title_properties">Todo App</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <input type="text" class="input_properties">
+            <button class="rounded-circle btn_properties" (click)="addList()">+</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12" *ngFor="let task of errandsList; let i = index">
+
+            <p class="p_properties">{{task}} <button class="btn_trash" (click)="deleteTask(task, i)"><i class="fas fa-trash-alt"></i></button></p> 
+
+        </div>
+    </div>
+
+</div>

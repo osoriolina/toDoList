@@ -1,0 +1,70 @@
+.container_properties {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #F4F4F4;
+    width: 500px;
+    height: 600px;
+}
+
+.btn_properties {
+    width: 70px;
+    height: 70px;
+    background-color:#E9782F;
+    color: white;
+    border: none;
+    position: relative;
+    left: -20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.btn_properties:focus {
+    border: none ;
+    box-shadow: none ;
+    outline: none;
+}
+
+.table_properties {
+    width: 450px;
+    margin: 0 auto;
+    border: none;
+}
+
+.input_properties {
+    width: 380px;
+    height: 40px;
+    color: #88888E;
+}
+
+.input_properties:focus {
+    
+    outline: none;
+}
+
+.p_properties {
+    text-align: left;
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    color: #88888E;
+    padding-left: 10px;
+    margin-top: 30p;
+    padding-top: 10px;
+    margin: 10px;
+    border-left: 4px solid #E9782F;
+    
+}
+
+.title_properties {
+    font-size: 40px;
+    color:#E9782F;
+    margin-top: 30px;
+}
+
+.btn_trash {
+    float: right;
+    border: none;
+    color: #88888E;
+}
